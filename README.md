@@ -1,1 +1,1 @@
-## Credit Card Data project for flagging fraud
+## Credit Card Data project for flagging fraudulent activity

@@ -1,0 +1,96 @@
+Amount:
+  drift_status: false
+  p_value: 0.9577153744564283
+Class:
+  drift_status: false
+  p_value: 1.0
+Time:
+  drift_status: false
+  p_value: 0.843522925708829
+V1:
+  drift_status: false
+  p_value: 0.44768347744964054
+V10:
+  drift_status: false
+  p_value: 0.19949843744223383
+V11:
+  drift_status: false
+  p_value: 0.7955708732393343
+V12:
+  drift_status: false
+  p_value: 0.523529777039679
+V13:
+  drift_status: false
+  p_value: 0.5394353665125111
+V14:
+  drift_status: false
+  p_value: 0.20962098671157148
+V15:
+  drift_status: false
+  p_value: 0.24445405087956285
+V16:
+  drift_status: true
+  p_value: 0.043315847915958106
+V17:
+  drift_status: false
+  p_value: 0.14815933182116248
+V18:
+  drift_status: false
+  p_value: 0.4435264300370443
+V19:
+  drift_status: true
+  p_value: 0.009809767338281166
+V2:
+  drift_status: false
+  p_value: 0.18089741929533099
+V20:
+  drift_status: false
+  p_value: 0.4922028733971999
+V21:
+  drift_status: false
+  p_value: 0.5489463472167975
+V22:
+  drift_status: false
+  p_value: 0.6842210923663494
+V23:
+  drift_status: false
+  p_value: 0.3995129969852579
+V24:
+  drift_status: false
+  p_value: 0.6372797134418171
+V25:
+  drift_status: false
+  p_value: 0.09244676038558353
+V26:
+  drift_status: false
+  p_value: 0.6907884999311726
+V27:
+  drift_status: false
+  p_value: 0.9627071680745657
+V28:
+  drift_status: false
+  p_value: 0.5428928463911789
+V3:
+  drift_status: false
+  p_value: 0.5983973150842523
+V4:
+  drift_status: false
+  p_value: 0.08802886448986913
+V5:
+  drift_status: false
+  p_value: 0.43665122629355646
+V6:
+  drift_status: false
+  p_value: 0.37353160379163985
+V7:
+  drift_status: false
+  p_value: 0.746909904687338
+V8:
+  drift_status: false
+  p_value: 0.28789221111629637
+V9:
+  drift_status: false
+  p_value: 0.7576527155244986
+_id:
+  drift_status: false
+  p_value: 0.843522925708829
