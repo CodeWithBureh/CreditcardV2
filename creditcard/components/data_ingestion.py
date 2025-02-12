@@ -36,9 +36,14 @@ class DataIngestion:
 
             df = pd.DataFrame(list(collection.find({} , no_cursor_timeout=True)))
             if "_id" in df.columns.to_list():
-                df.drop(columns=["_id"],axis=1)
-
+                # df.drop(columns=["_id"],axis=1)
+                print("ID Column detected")
+                df = df.drop(columns=['_id'])
+            else:
+                print("ID column not detected.")
+            # print(df)
             df.replace({"na":np.nan},inplace=True)
+            # print(df)
             return df
 
         except Exception as e:
