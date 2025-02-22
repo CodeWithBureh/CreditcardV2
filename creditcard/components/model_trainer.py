@@ -17,6 +17,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import (AdaBoostClassifier, GradientBoostingClassifier, RandomForestClassifier)
 import mlflow
+import dagshub
+dagshub.init(repo_owner='CodeWithBureh', repo_name='CreditCard', mlflow=True)
 
 
 
@@ -106,6 +108,9 @@ class ModelTrainer:
 
         Credit_Card_Model = CreditCardModel(preprocessor=preprocessor, model=best_model)
         save_object(self.model_trainer_config.trained_model_file_path, obj=Credit_Card_Model)
+        
+        #Model Pusher
+        save_object("final_models/model.pkl", best_model)
 
         ## Model Trainer Artifact
         model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path=self.model_trainer_config.trained_model_file_path,
