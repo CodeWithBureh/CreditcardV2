@@ -1,0 +1,11 @@
+[2025-03-01 19:37:49,108 ]  1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-01 19:37:49,119 ]  107 dagshub  - INFO - Accessing as CodeWithBureh
+[2025-03-01 19:37:49,318 ]  1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/CodeWithBureh/CreditCard "HTTP/1.1 200 OK"
+[2025-03-01 19:37:49,500 ]  1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-01 19:37:49,504 ]  107 dagshub  - INFO - Initialized MLflow to track repo "CodeWithBureh/CreditCard"
+[2025-03-01 19:37:49,507 ]  107 dagshub  - INFO - Repository CodeWithBureh/CreditCard initialized!
+[2025-03-01 19:37:50,044 ]  114 fastapi  - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+

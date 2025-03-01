@@ -17,6 +17,7 @@ class CreditCardModel:
         try:
             x_transform = self.preprocessor.tranform(x)
             y_hat = self.model.predict(x_transform)
+            return y_hat
         except Exception as e:
             raise CreditCardException(e,sys)
 

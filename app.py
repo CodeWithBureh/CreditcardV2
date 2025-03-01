@@ -60,7 +60,6 @@ async def train_route():
         train_pipeline=TrainingPipeline()
         train_pipeline.run_pipeline()
         return Response("Training is successful")
-        
     except Exception as e:
         CreditCardException(e,sys)
 

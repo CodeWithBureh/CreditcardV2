@@ -1,0 +1,6 @@
+[2025-03-01 19:45:19,604 ]  1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-01 19:45:19,611 ]  107 dagshub  - INFO - Accessing as CodeWithBureh
+[2025-03-01 19:45:19,833 ]  1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/CodeWithBureh/CreditCard "HTTP/1.1 200 OK"
+[2025-03-01 19:45:20,000 ]  1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-01 19:45:20,004 ]  107 dagshub  - INFO - Initialized MLflow to track repo "CodeWithBureh/CreditCard"
+[2025-03-01 19:45:20,004 ]  107 dagshub  - INFO - Repository CodeWithBureh/CreditCard initialized!
