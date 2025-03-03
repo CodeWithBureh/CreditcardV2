@@ -19,9 +19,10 @@ from sklearn.ensemble import (AdaBoostClassifier, GradientBoostingClassifier, Ra
 import mlflow
 import dagshub
 
+# Authenticate with DAGsHub token
+dagshub.auth.add_app_token(os.getenv("DAGSHUB_TOKEN"))
 
-dagshub.init(repo_owner='CodeWithBureh', repo_name='CreditCard', mlflow=True, token=os.getenv("DAGSHUB_TOKEN") )
-
+dagshub.init(repo_owner='CodeWithBureh', repo_name='CreditCard', mlflow=True )
 
 class ModelTrainer:
     def __init__(self, model_trainer_config: ModelTrainerConfig, data_transformation_artifact: DataTransformationArtifact):
