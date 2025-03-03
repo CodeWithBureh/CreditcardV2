@@ -18,8 +18,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import (AdaBoostClassifier, GradientBoostingClassifier, RandomForestClassifier)
 import mlflow
 import dagshub
-dagshub.init(repo_owner='CodeWithBureh', repo_name='CreditCard', mlflow=True)
 
+
+dagshub.init(repo_owner='CodeWithBureh', repo_name='CreditCard', mlflow=True, token=os.getenv("DAGSHUB_TOKEN") )
 
 
 class ModelTrainer:
