@@ -84,7 +84,7 @@ jobs:
       
       - name: Stop and remove container if running
         run: |
-          docker ps -q --filter "name=creditcard" | grep -q . && docker stop creditcard && docker rm -fv creditcard
+          docker ps -q --filter name=creditcard | grep -q . && docker stop creditcard && docker rm -fv creditcard
 
 #      - name: Run Docker Image to serve users
 #        run: |
