@@ -70,6 +70,6 @@ MODEL_TRAINER_OVER_FITTING_UNDER_FITTING_THRESHOLD: float = 0.05
 
 # MODEL_FILE_NAME:str = "credit_card_model.mdl"
 
-TRAINING_BUCKET_NAME = "akinscreditcard"
+TRAINING_BUCKET_NAME = "akinscreditcarddata"
 
 
