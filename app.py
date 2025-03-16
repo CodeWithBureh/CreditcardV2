@@ -63,7 +63,7 @@ async def train_route():
     except Exception as e:
         CreditCardException(e,sys)
 
-@app.get("/predict")
+@app.post("/predict")
 async def predict_route(request:Request,file:UploadFile=File(...)):
     try:
         df=pd.read_csv(file.file)
