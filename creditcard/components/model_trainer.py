@@ -111,8 +111,17 @@ class ModelTrainer:
         Credit_Card_Model = CreditCardModel(preprocessor=preprocessor, model=best_model)
         save_object(self.model_trainer_config.trained_model_file_path, obj=Credit_Card_Model)
         
+
+        absolute_path = os.path.abspath("final_models/model.pkl")
+        print(f"Saving model to: {absolute_path}")
+
         #Model Pusher
-        save_object("final_models/model.pkl", best_model)
+        
+        # save_object("final_models/model.pkl", best_model)
+
+        save_object("/app/final_models/model.pkl", best_model)
+
+        print(f"Model successfully saved at: {absolute_path}")
 
         ## Model Trainer Artifact
         model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path=self.model_trainer_config.trained_model_file_path,
